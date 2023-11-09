@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body{
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1{
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h2{
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a{
+  display: block;
+}
+
+ol li, .yet{
+  padding: 10px;
+  font-size: 30px;
+  width: 30%;
+  margin-top: 10px;
+  padding-right: 5px;
+  text-align: center;
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid transparent; 
+}
+
+.answers li {
+  position: relative;
+}
+
+ol li:hover, .yet:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+  cursor: pointer;
+}
+
+.correctedAnswer{
+  padding: 10px;
+  font-size: 30px;
+  width: 30%;
+  margin-top: 10px;
+  padding-right: 5px;
+  text-align: center;
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid transparent;
+  background-color: rgb(230, 230, 230);
+}
+
+.correctedAnswer:hover{
+  background-color: rgb(230, 230, 230);
+  border: 1px solid; 
+  cursor: pointer;
+}
+
+.comment{
+  display: none;
+}
+
+.result{
+  display: none;
+  position: absolute;
+  right: 5;  
+  left: 5;
+  top: 50%;         
+  transform: translateY(-50%);
+}
+
+.answer{
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  border-bottom:2px solid;
+}
+
+.retry{
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  width:10%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid transparent; 
+}
+
+.retry:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.onemore{
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  width:10%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.onemore:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.returnMenu{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  width:5%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.returnMenu:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body{
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1{
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h2{
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a{
+  display: block;
+}
+
+li{
+  padding: 10px;
+  font-size: 30px;
+  width: 30%;
+  margin-top: 10px;
+  padding-right: 5px;
+  text-align: center;
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid transparent; 
+}
+
+.answers li {
+  position: relative;
+}
+
+li:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+  cursor: pointer;
+}
+
+
+.comment{
+  display: none;
+}
+
+.result{
+  display: none;
+  position: absolute;
+  right: 5;  
+  left: 5;
+  top: 50%;         
+  transform: translateY(-50%);
+}
+
+.answer{
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  border-bottom:2px solid;
+}
+
+.retry{
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  width:10%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid transparent; 
+}
+
+.retry:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.onemore{
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  width:10%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.onemore:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.returnMenu{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  width:5%;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.returnMenu:hover {
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+
+.resetModal{
+  position: fixed; 
+  display: none;   
+  left: 50%;       
+  top: 50%;        
+  transform: translate(-50%, -50%); 
+  width: 60%;
+  height: 180px;
+  text-align: center;
+  overflow: auto;
+  border-radius: 5px;
+  z-index: 1000;  
+  justify-content: center;
+  align-items: center; 
+  background-color: white;
+}
+
+.celebrateModal {
+  position: fixed; 
+  display: none;
+  left: 50%;      
+  top: 50%;        
+  transform: translate(-50%, -50%); 
+  width: 40%;
+  height: 180px;
+  text-align: center;
+  overflow: auto;
+  border-radius: 5px;
+  z-index: 1500;  
+  justify-content: center;
+  align-items: center; 
+  background-color: white;
+}
+
+
+.checkSentence{
+  font-size: 30px;
+}
+
+.resetCheck{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cancel, .reset{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.cancel:hover, .reset:hover{
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.checkSentence{
+  font-size: 30px;
+}
+
+.resetCheck{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cancel, .reset, .close{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.close{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: auto;
+  width: 40%;
+  cursor: pointer;
+}
+
+.cancel:hover, .reset:hover, .close:hover{
+  background-color: aliceblue;
+  border: 1px solid; 
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 500;
+  display: none;
+}
+
+.Congratulation{
+  color: red;
+  font-size: 30px;
+}
